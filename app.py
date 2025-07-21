@@ -53,7 +53,7 @@ if uploaded_file:
     model = RandomForestRegressor()
     model.fit(X_train, y_train)
     rmse = np.sqrt(mean_squared_error(y_test, model.predict(X_test)))
-    st.success(f" Model Trained | RMSE: £{rmse:.2f}")
+    st.success(f" Model Trained | RMSE: {rmse:.2f}")
 
 
     customer_id = st.text_input("🔍 Enter Customer ID to Predict CLV:")
