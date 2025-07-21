@@ -68,7 +68,7 @@ if uploaded_file:
                 st.write(f"**Country**: {row['Country_first'].values[0]}")
                 st.write(f"**Total Purchases**: {row['Frequency'].values[0]}")
                 st.write(f"**Total Quantity Purchased**: {row['Quantity_sum'].values[0]}")
-                st.write(f"**Avg Purchase Value**: £{row['Avg_Purchase_Value'].values[0]:.2f}")
+                st.write(f"**Avg Purchase Value**: {row['Avg_Purchase_Value'].values[0]:.2f}")
                 st.write(f"**Customer Since (Days)**: {row['Customer_Age_Days'].values[0]}")
 
  
