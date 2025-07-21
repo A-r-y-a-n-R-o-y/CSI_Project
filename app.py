@@ -3,7 +3,7 @@ import streamlit as st
 import joblib
 import numpy as np
 
-model = joblib.load('/content/cltv_model.pkl')
+model = joblib.load('/cltv_model.pkl')
 
 st.title("Customer Lifetime Value Prediction")
 
